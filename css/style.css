@@ -1,0 +1,57 @@
+*{
+  margin: 0 auto;
+}
+body{
+  text-align: center;
+  background-image: url(../img/1.jpg);
+  background-repeat: repeat;
+}
+header{
+  margin: 25px;
+}
+#header1 {
+  border: 10px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+form div{
+  float: left;
+}
+form div{
+  margin: 20px;
+}
+#list{
+  clear: both;
+  margin: 50px;
+}
+#content_todo {
+  height: 200px;
+  max-height: 200px;
+  width: 400px;
+  max-width: 400px;
+  background-color: grey;
+  word-wrap: break-word;
+}
+#contend_todo:hover {
+  cursor: pointer;
+}
+#data_todo {
+  width: 100%;
+}
+.input_todo{
+  margin: 10px auto;
+}
+input {
+  clear: both;
+}
+input[type=button],input[type=submit] {
+  background-color: grey;
+  color: white;
+  width: 200px;
+  height: 70px;
+}
+input[type=button]:hover, input[type=submit]:hover {
+  background-color: white;
+  color: grey;
+}
+
