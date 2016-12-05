@@ -14,11 +14,12 @@ header{
   border-radius: 10px;
   padding: 10px;
 }
-form div{
-  float: left;
+form {
+  
 }
 form div{
   margin: 20px;
+  float: left;
 }
 #list{
   clear: both;
@@ -41,14 +42,16 @@ form div{
 .input_todo{
   margin: 10px auto;
 }
-input {
-  clear: both;
+.buttons {
+  width: 250px;
+  height: 200px;
 }
 input[type=button],input[type=submit] {
   background-color: grey;
   color: white;
   width: 200px;
   height: 70px;
+  margin: 10px;
 }
 input[type=button]:hover, input[type=submit]:hover {
   background-color: white;
