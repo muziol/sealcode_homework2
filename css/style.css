@@ -12,7 +12,7 @@ body{
 main{
   border: 1px solid red;
   padding: 0.09rem;
-  margin-top: 2rem;   
+  margin-top: 2rem;
   /*display: flex;
   align-items: center;
   justify-content: center;
@@ -31,8 +31,15 @@ header{
   align-items: center;
   justify-content: center;
 }
-header input {
-
+header a, header a:active {
+  text-decoration: none;
+  color: white;
+  transition: all 2s;
+  border-bottom: 0.3rem outset #000;
+}
+header a:hover {
+  color: grey;
+  border-bottom: 0.3rem outset #fff;
 }
 form div{
   margin: 20px;
@@ -94,4 +101,3 @@ footer {
 form input[type=date]{
   width: 21rem;
 }
-
