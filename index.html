@@ -9,9 +9,11 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="http://basehold.it/24">
+  <link rel="stylesheet" href="css/fontello.css">
+
 </head>
 <body>
-<header><a href="#">TO DO - APP</a></header>
+<header><a href="#top"><i class="demo-icon icon-home-outline"></i> TO DO - APP</a></header>
 <main>
 
   <div class="input_todo">
@@ -23,10 +25,9 @@
     <div>
       <label for="data_todo">Do kiedy: </label>
       <input type="date" name="data_todo" id="data_todo">
-    </div>
-    <div>
-      <input type="button" name="" value="Usuń :D">
-      <input type="submit" name="add_todo" value="Dodaj">
+      <input type="submit" name="add_todo" value="Dodaj ">
+      <i class="demo-icon icon-plus-outline"></i>
+      <div id="errors">Brak treści lub daty</div>
     </div>
   </form>
   </div>
@@ -36,6 +37,8 @@
       Funkcja dodawania todo
     </ul>
   </div>
+
+  <input type="button" name="" value="Usuń :D">
 
   <footer>Wszelkie prawa zastrzeżone &copy; Muziol 2016</footer>
 
