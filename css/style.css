@@ -45,7 +45,7 @@ header a:hover, header:hover {
 }
 form div{
   margin: 1.5rem;
-  height: 15rem;
+  height: 18rem;
   width: 32rem;
   float: left;
   background-color: #3f681c;
@@ -101,10 +101,12 @@ form input[type=submit]:hover {
 }
 footer {
   margin: 2.7rem 0 auto auto;
+  padding: 0.5rem;
   border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 4rem;
 }
 form input[type=date]{
   width: 27rem;
@@ -117,4 +119,12 @@ form input[type=date]{
   display: none;
   align-items: center;
   justify-content: center;
+}
+#lista_todo {
+  padding: 0.5rem;
+  columns: 3;
+  line-height: 2.5rem;
+}
+label {
+  line-height: 3rem;
 }
