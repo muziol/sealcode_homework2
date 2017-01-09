@@ -43,7 +43,7 @@ header a:hover, header:hover {
   color: #fb6542;
   border-bottom: 0.3rem solid #fb6542;
 }
-form div{
+.input_todo div{
   margin: 1.5rem;
   height: 18rem;
   width: 32rem;
@@ -86,7 +86,7 @@ form div{
   justify-content: center;
   flex-direction: row;
 }
-form input[type=submit] {
+.input_todo input[type=submit] {
   background-color: #375e97;
   color: #ffbb00;
   width: 15rem;
@@ -95,7 +95,7 @@ form input[type=submit] {
   font-size: 3rem;
   font-family: 'Dekko', cursive;
 }
-form input[type=submit]:hover {
+.input_todo input[type=submit]:hover {
   background-color: #ffbb00;
   color: #375e97;
 }
@@ -108,7 +108,7 @@ footer {
   justify-content: center;
   line-height: 4rem;
 }
-form input[type=date]{
+.input_todo input[type=date]{
   width: 27rem;
 }
 #errors {
@@ -122,9 +122,14 @@ form input[type=date]{
 }
 #lista_todo {
   padding: 0.5rem;
-  columns: 3;
   line-height: 2.5rem;
+  list-style-type: none;
 }
 label {
   line-height: 3rem;
+}
+li {
+  border: 1px red solid;
+  background-color: white;
+  color: black;
 }
